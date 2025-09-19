@@ -1,0 +1,5 @@
+{
+  "name": "Typing Club Clone",
+  "description": "An interactive web application that helps users improve their typing speed and accuracy, inspired by TypingClub. Features real-time feedback, WPM and accuracy tracking, and an on-screen virtual keyboard.",
+  "requestFramePermissions": []
+}

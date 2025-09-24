@@ -1,58 +1,43 @@
-
-
-# TypingMasterAI 🎹🤖
-
-**AI-powered touch typing tutor with adaptive lessons, real-time feedback, and gamified challenges for typing mastery.**
-
----
-
-## 🚀 About the Project
-TypingMasterAI is a next-generation **touch typing trainer** that helps users improve speed, accuracy, and posture through **AI-driven personalized lessons**.  
-Unlike traditional typing tools, TypingMasterAI adapts to your mistakes, provides real-time guidance, and turns typing practice into a **fun and engaging journey**.  
+<div align="center">
+  <h1>TypingMasterAI 🎹🤖</h1>
+  <p>AI-powered touch typing tutor with adaptive lessons, real-time feedback, and gamification.</p>
+  <img src="https://img.shields.io/badge/Status-Beta-yellow" alt="Status">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+</div>
 
 ---
 
-## ✨ Features
-- 🎯 **AI-Powered Personalized Coach** → Learns from your mistakes and generates micro-lessons.  
-- 📈 **Adaptive Difficulty** → Lessons adjust automatically based on your typing performance.  
-- 🔥 **Mistake Heatmap** → Visual feedback on weak keys and finger placement.  
-- 📰 **Real-World Practice** → Train using news articles, coding snippets, and transcription tasks.  
-- 🏆 **Gamified Challenges** → Badges, levels, and global typing competitions.  
-- 🎧 **Voice & Posture Feedback** → AI-powered posture correction and voice-driven training.  
-- 🌐 **Multilingual Support** → Practice in English, Hindi, Spanish, French, and more.  
-- 📊 **Progress Dashboard** → Detailed analytics with WPM trends, error tracking, and goals.  
-- 🤝 **Collaborative Mode** → Compete or collaborate with friends, classrooms, or teams.  
+## 🌟 Features
+
+- **Adaptive Lessons:** AI generates typing lessons tailored to your mistakes.  
+- **Real-time Feedback:** See WPM, accuracy, and mistakes live.  
+- **Dark Mode Toggle:** Switch between light and dark theme.  
+- **Gamification:** Earn badges like ⚡ Fast Fingers or 🎯 Accuracy King.  
+- **Progress Chart:** Track your WPM and accuracy over time.  
+- **Multilingual Lessons:** Practice in **English**, **Hindi**, or **Coding Snippets**.  
+- **Voice & Posture Feedback (Future):** Improve your typing posture and rhythm.  
+- **Collaborative Mode (Future):** Compete with friends or classmates.  
 
 ---
 
-## 🆕 Upcoming Features
-- ✍️ **Handwriting-to-Typing Transition Mode** – Train students moving from handwriting to typing.  
-- ⌨️ **Custom Keyboard Layouts** – QWERTY, AZERTY, Dvorak, Colemak support.  
-- 🖥️ **AR/VR Integration** – Learn typing with immersive environments.  
-- 🤖 **AI Typing Mentor Bot** – Chat with an AI bot that teaches typing via exercises.  
+## 📸 Screenshots
+
+<div align="center">
+  <img src="screenshots/light-mode.png" width="400" alt="Light Mode">
+  <img src="screenshots/dark-mode.png" width="400" alt="Dark Mode">
+</div>
+
+<div align="center">
+  <img src="screenshots/badges.png" width="400" alt="Badges">
+  <img src="screenshots/progress-chart.png" width="400" alt="Progress Chart">
+</div>
 
 ---
 
-## 🛠️ Run Locally
+## 🚀 Getting Started
 
-**Prerequisites:**  
-- Node.js 18+  
-- Gemini API key  
-
-**Steps:**  
+### 1️⃣ Clone the repository
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/<your-username>/TypingMasterAI.git
-
-# 2. Navigate to project folder
+git clone https://github.com/codingkiller-123/TypingMasterAI.git
 cd TypingMasterAI
-
-# 3. Install dependencies
-npm install
-
-# 4. Add your Gemini API key
-echo "GEMINI_API_KEY=your_api_key_here" > .env.local
-
-# 5. Start the app
-npm run dev
